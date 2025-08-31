@@ -14,6 +14,7 @@ Outside the user's field of vision, the world is not processed by the GPU, but e
 Visualization is based on simple 3D models with generative filling and texturing, and unique 3D models and assets.
 The environment is generated based on user requests using specialized AI. A simple 3D model of the main buildings and landscapes is used as the framework of the world, as well as their text description.
 Unique objects are 3D models and decals created by the user or NPC. Information about them is stored in the database and is taken into account during visualization. Depending on the conditions of the environment and time, these artifacts can change (for example, rust or crack). Over time, some artifacts can be completely removed from the visualization process due to their degradation.
+To ensure stability and repeatability of the environment during procedural generation, the concept of hierarchical seeds is used.
 
 3. The hierarchy of NPC consciousness and the Chronicler system
 NPCs do not have a permanent "consciousness". Their visualization and activity (connection of AI as their consciousness) is activated only when they enter the user's field.
